@@ -1,10 +1,10 @@
 #######################################################################################################################################################
 # 
-# Name:
-# SID:
-# Exam Date:
-# Module:
-# Github link for this assignment:  
+# Name: Arfa Shaikh
+# SID: 750004846
+# Exam Date: 27-03-2025
+# Module: BEMM458
+# Github link for this assignment: https://github.com/UniversityExeterBusinessSchool/mock-test-2-arfa-10
 #
 #######################################################################################################################################################
 # Instruction 1. Read each question carefully and complete the scripts as instructed.
@@ -21,6 +21,15 @@
 # Question 1 - Loops and Lists
 # You are given a list of numbers representing weekly sales in units.
 weekly_sales = [120, 85, 100, 90, 110, 95, 130]
+
+average_sales = sum(weekly_sales)/len(weekly_sales)
+
+for sales in weekly_sales:
+    if sales>average_sales:
+        print(f"Week's sales of {sales} is above average.")
+    else:
+        print(f"Week's sales of {sales} is above average.")
+print(f"The average sales for the period is {average_sales}")
 
 # Write a for loop that iterates through the list and prints whether each week's sales were above or below the average sales for the period.
 # Calculate and print the average sales.
